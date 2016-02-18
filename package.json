@@ -1,0 +1,16 @@
+{
+  "name": "protractor-seed",
+  "version": "1.0.0",
+  "description": "A playground for protractor tests",
+  "main": "index.js",
+  "scripts": {
+    "ui-test": "webdriver-manager update && protractor"
+  },
+  "author": "Louie Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-register": "^6.5.2",
+    "protractor": "^3.1.1",
+    "selenium-server-standalone-jar": "^2.51.0"
+  }
+}
